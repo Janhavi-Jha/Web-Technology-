@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Synexis Institute of Technology</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .about-page {
+            padding: 140px 10% 80px;
+            background: #07111F;
+            color: white;
+        }
+
+        .about-page h1 {
+            text-align: center;
+            color: #FFD700;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .about-page p {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+            line-height: 1.8;
+            color: #ddd;
+            margin-bottom: 50px;
+        }
+
+        .mission {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .mission-card {
+            background: rgba(255, 255, 255, .08);
+            border-radius: 20px;
+            padding: 30px;
+            transition: .4s;
+            border: 1px solid rgba(255, 255, 255, .12);
+        }
+
+        .mission-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 0 25px rgba(255, 215, 0, .35);
+        }
+
+        .mission-card h2 {
+            color: #FFD700;
+            margin-bottom: 15px;
+        }
+
+        .principal {
+            margin-top: 70px;
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .principal img {
+            width: 320px;
+            border-radius: 20px;
+        }
+
+        .principal-text {
+            flex: 1;
+        }
+
+        .principal-text h2 {
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+
+        .principal-text p {
+            text-align: left;
+            margin: 0;
+        }
+
+        @media(max-width:768px) {
+            .principal {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .principal-text p {
+                text-align: center;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h2>SYNEXIS</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+
+                <li><a href="admission.html">Admissions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="about-page">
+
+        <h1>About Synexis Institute of Technology</h1>
+
+        <p>
+
+            Established with a vision to transform education, Synexis Institute of Technology
+            provides world-class engineering education through innovation, research,
+            industry collaborations, and modern infrastructure.
+
+            Our students develop technical expertise, leadership qualities,
+            entrepreneurial mindset and ethical values required to excel globally.
+
+        </p>
+
+        <div class="mission">
+
+            <div class="mission-card">
+
+                <h2>Our Mission</h2>
+
+                <p>
+
+                    To empower students through quality education,
+                    innovation, creativity and practical learning
+                    that prepares them for successful careers.
+
+                </p>
+
+            </div>
+
+            <div class="mission-card">
+
+                <h2> Our Vision</h2>
+
+                <p>
+
+                    To become one of India's leading technological
+                    institutions recognized for academic excellence,
+                    research and innovation.
+
+                </p>
+
+            </div>
+
+            <div class="mission-card">
+
+                <h2> Core Values</h2>
+
+                <p>
+
+                    Integrity, Leadership, Innovation,
+                    Discipline, Excellence,
+                    Teamwork and Lifelong Learning.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="principal">
+
+            <img src="images/principal.avif" alt="Principal">
+
+            <div class="principal-text">
+
+                <h2>Principal's Message</h2>
+
+                <p>
+
+                    Welcome to Synexis Institute of Technology.
+
+                    Our institution believes education is not merely about obtaining a degree,
+                    but about developing character, leadership and lifelong learning.
+
+                    We encourage every student to dream big, innovate fearlessly,
+                    and contribute positively to society through knowledge and technology.
+
+                    Together, let us build a brighter future.
+
+                    <br><br>
+
+                    <b>Dr. John Keatings</b><br>
+
+                    Principal
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>Synexis Institute of Technology</h2>
+
+            <p>Knowledge | Innovation | Excellence</p>
+
+            <p>Email : info@synexis.edu.in</p>
+
+            <p>Phone : +91 9876543210</p>
+
+            <p>© 2026 Synexis Institute of Technology. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

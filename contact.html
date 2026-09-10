@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Synexis Institute of Technology</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background: #07111F;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .contact {
+            padding: 140px 8% 80px;
+        }
+
+        .contact h1 {
+            text-align: center;
+            color: #FFD700;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .contact .intro {
+            text-align: center;
+            color: #ddd;
+            max-width: 850px;
+            margin: auto;
+            margin-bottom: 50px;
+            line-height: 1.8;
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+        }
+
+        .contact-box {
+
+            background: rgba(255, 255, 255, .08);
+
+            border: 1px solid rgba(255, 255, 255, .15);
+
+            backdrop-filter: blur(15px);
+
+            border-radius: 20px;
+
+            padding: 35px;
+
+        }
+
+        .contact-box h2 {
+
+            color: #FFD700;
+
+            margin-bottom: 25px;
+
+        }
+
+        .contact-box p {
+
+            color: #ddd;
+
+            margin-bottom: 18px;
+
+            line-height: 1.8;
+
+        }
+
+        .contact-box form {
+
+            display: flex;
+
+            flex-direction: column;
+
+        }
+
+        .contact-box input,
+        .contact-box textarea {
+
+            margin-bottom: 20px;
+
+            padding: 15px;
+
+            border: none;
+
+            border-radius: 10px;
+
+            outline: none;
+
+            background: #ffffff;
+
+            font-size: 15px;
+
+        }
+
+        .contact-box textarea {
+
+            resize: none;
+
+        }
+
+        .contact-box button {
+
+            background: #FFD700;
+
+            color: #07111F;
+
+            border: none;
+
+            padding: 15px;
+
+            border-radius: 50px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            transition: .4s;
+
+        }
+
+        .contact-box button:hover {
+
+            transform: translateY(-5px);
+
+            box-shadow: 0 0 20px #FFD700;
+
+        }
+
+        .map {
+
+            margin-top: 60px;
+
+        }
+
+        .map h2 {
+
+            color: #FFD700;
+
+            text-align: center;
+
+            margin-bottom: 25px;
+
+        }
+
+        .map img {
+
+            width: 100%;
+
+            border-radius: 20px;
+
+            box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+
+        }
+
+        @media(max-width:768px) {
+
+            .contact h1 {
+
+                font-size: 36px;
+
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <h2>SYNEXIS</h2>
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="courses.html">Courses</a></li>
+
+                <li><a href="admission.html">Admissions</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="contact">
+
+        <h1>Contact Us</h1>
+
+        <p class="intro">
+
+            We would love to hear from you. Reach out to us for admissions,
+            course details, campus visits, or any other queries.
+
+        </p>
+
+        <div class="contact-container">
+
+            <div class="contact-box">
+
+                <h2>Contact Information</h2>
+
+                <p><strong>📍 Address:</strong><br>
+                    Synexis Institute of Technology<br>
+                    Knowledge Park, Greater Noida, Uttar Pradesh, India
+                </p>
+
+                <p><strong>📞 Phone:</strong><br>
+                    +91 9876543210
+                </p>
+
+                <p><strong>📧 Email:</strong><br>
+                    info@synexis.edu.in
+                </p>
+
+                <p><strong>🕒 Office Hours:</strong><br>
+                    Monday – Saturday<br>
+                    9:00 AM – 5:00 PM
+                </p>
+
+            </div>
+
+            <div class="contact-box">
+
+                <h2>Send an Inquiry</h2>
+
+                <form>
+
+                    <input type="text" placeholder="Full Name" required>
+
+                    <input type="email" placeholder="Email Address" required>
+
+                    <input type="text" placeholder="Phone Number">
+
+                    <textarea rows="6" placeholder="Your Message"></textarea>
+
+                    <button type="submit">Send Message</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="map">
+
+            <h2>Campus Location</h2>
+
+            <img src="images/map.jpg" alt="Campus Location">
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>Synexis Institute of Technology</h2>
+
+            <p>Knowledge | Innovation | Excellence</p>
+
+            <p>Email: info@synexis.edu.in</p>
+
+            <p>Phone: +91 9876543210</p>
+
+            <p>© 2026 Synexis Institute of Technology. All Rights Reserved.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
